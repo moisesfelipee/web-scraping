@@ -35,8 +35,7 @@ class BOT(object):
 
         time.sleep(2)
 
-        # fechar = self.driver.find_element_by_xpath('/html/body/div[1]/div/div[2]/button')
-        # fechar.click()
+
 
     def search_cpfs(self, cpf):
 
