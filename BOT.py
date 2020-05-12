@@ -25,10 +25,10 @@ class BOT(object):
         self.driver.get(self.bot_url)
 
         login_box = self.driver.find_element_by_xpath('//*[@id="login"]/div[3]/div[2]/div[2]/input')
-        login_box.send_keys('teste')
+        login_box.send_keys('edivania')
 
         pass_box = self.driver.find_element_by_xpath('//*[@id="login"]/div[3]/div[2]/div[3]/input')
-        pass_box.send_keys('123456')
+        pass_box.send_keys('789456')
 
         login_btn = self.driver.find_element_by_xpath('//*[@id="login"]/div[3]/div[2]/button')
         login_btn.click()
